@@ -1,0 +1,43 @@
+.panel {
+    -fx-background-color: #505050;
+}
+
+.active {
+    -fx-text-fill: #FAFAFA;
+    -fx-control-inner-background: #606060;
+    -fx-highlight-fill: null;
+    -fx-highlight-text-fill: null;
+    -fx-background-insets: 0, 0 0 0 0 ;
+    -fx-table-cell-border-color: #404040;
+    -fx-background-radius: 12 12 12 12;
+}
+
+.logo {
+    -fx-text-fill: #FAFAFA;
+    -fx-control-inner-background: #CC2060;
+    -fx-highlight-fill: null;
+    -fx-highlight-text-fill: null;
+    -fx-background-insets: 0, 0 0 0 0 ;
+    -fx-table-cell-border-color: #404040;
+    -fx-background-radius: 16 16 16 16;
+}
+
+.button {
+   -fx-background-color: #00AA99;
+   -fx-text-fill: #FAFAFA;
+   -fx-background-radius: 2 2 2 2;
+}
+
+.button:pressed {
+    -fx-background-color: #CC2060;
+    -fx-text-fill: #FAFAFA;
+    -fx-background-radius: 2 2 2 2;
+}
+
+.saturatedField {
+    -fx-background-color: #77CCAA;
+}
+
+.desaturatedField {
+    -fx-background-color: #55AA88;
+}

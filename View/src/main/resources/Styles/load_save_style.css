@@ -1,0 +1,15 @@
+.split-pane:horizontal > .split-pane-divider {
+   -fx-background-color: #555555;
+}
+
+.button {
+   -fx-background-color: #00AA99;
+   -fx-text-fill: #FAFAFA;
+   -fx-background-radius: 2 2 2 2;
+}
+
+.button:pressed {
+    -fx-background-color: #CC2060;
+    -fx-text-fill: #FAFAFA;
+    -fx-background-radius: 2 2 2 2;
+}
